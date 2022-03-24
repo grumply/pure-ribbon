@@ -1,4 +1,4 @@
-{-# language LambdaCase, NamedFieldPuns, BlockArguments, TypeApplications, RankNTypes, PostfixOperators, OverloadedStrings #-}
+{-# language LambdaCase, NamedFieldPuns, BlockArguments, TypeApplications, RankNTypes, PostfixOperators, OverloadedStrings, FlexibleContexts #-}
 module Pure.Ribbon.Scroll (Direction(..),Scroll(..),scroll) where
 
 import qualified Pure.Ribbon.Internal as Internal
